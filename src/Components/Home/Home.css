@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ..................................... */
+
+
+.banner-content {
+    color: #000;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-heading {
+    color: #000;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.search {
+    width: 777px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0D73C1;
+    background: #FFF;
+}
+
+input {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+
+}
+
+
+
+.search-button {
+    width: 212px;
+    height: 50px;
+    border-radius: 100px;
+    background: #0D73C1;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+*/
+
+/* ................................... */
+/* parnter section */
+.partnersection {
+    margin-top: 0;
+    height: 277px;
+    background-color: #ECF4FA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerlogo {
+    width: 123.858px;
+    height: 67.34px;
+    margin: 8px;
+    /* Add padding between logos */
+}
+
+
+.featured {
+    margin-top: 16px;
+    color: #000;
+    font-family: Barlow;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* ............................................ */
+.features-section {
+    background: #FFF;
+    height: 645px;
+    display: flex;
+    /* Flex container */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    text-align: justify;
+}
+
+.sectioncontent {
+    color: #8B8B8B;
+    font-family: Barlow;
+    font-style: normal;
+    line-height: normal;
+    padding: 30px 40px;
+
+
+}
+
+.sectiontitle {
+    color: #000;
+
+}
+
+.testinonial-box {
+    margin-top: 40px;
+}
+
+.testimonial-heading {
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.testimonial-content {
+
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.card-heading {
+
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.card-title {
+
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+/* ........................................... */
+.messages-section {
+    background-color: #ECF4FA;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid #B6DBF8;
+}
+
+.messages {
+    color: #000;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.messages-heading {
+    font-size: 25px;
+
+}
+
+.messages-content {
+    font-size: 16px;
+
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.slide {
+    flex: 0 0 33.33%;
+    margin-right: 20px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot-image {
+    width: 70px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the background image within the container */
+}
+
+
+.custom-card {
+    height: 271px;
+    border-radius: 12px;
+}
+
+/* ........................................ */
