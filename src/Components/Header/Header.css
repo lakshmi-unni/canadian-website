@@ -37,14 +37,14 @@ header .logo img {
     height: 62px;
     flex-shrink: 0;
     margin-left: 30px;
-    margin-top: 12px;
+      margin-top: 4px;
 
 }
 
 .navbar ul {
     display: flex;
     justify-content: center;
-    padding: 30px 56px
+    padding: 24px 56px;
 }
 
 .navbar a {
