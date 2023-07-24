@@ -71,7 +71,7 @@ const Home = () => {
                         <div className="col-md-3">
                             <div className="testimonial mb-5">
                                 <div className="avatar mx-auto">
-                                    <img src={AimImg1} className="rounded-circle z-depth-1 img-fluid" />
+                                    <img src={AimImg1} className="rounded-circle z-depth-1 img-fluid" alt='img' />
                                 </div>
                                 <div className='testinonial-box'>
                                     <h4 className="sectiontitle testimonial-heading ">Visibility</h4>
@@ -88,7 +88,7 @@ const Home = () => {
                         <div className="col-md-3">
                             <div className="testimonial mb-5">
                                 <div className="avatar mx-auto">
-                                    <img src={AimImg2} className="rounded-circle z-depth-1 img-fluid" />
+                                    <img src={AimImg2} className="rounded-circle z-depth-1 img-fluid" alt='img' />
                                 </div>
                                 <div className='testinonial-box'>
                                     <h4 className="sectiontitle testimonial-heading">John Doe</h4>
@@ -102,7 +102,7 @@ const Home = () => {
                         <div className="col-md-3">
                             <div className="testimonial mb-5">
                                 <div className="avatar mx-auto">
-                                    <img src={AimImg3} className="rounded-circle z-depth-1 img-fluid" />
+                                    <img src={AimImg3} className="rounded-circle z-depth-1 img-fluid" alt='img' />
                                 </div>
                                 <div className='testinonial-box'>
                                     <h4 className="sectiontitle testimonial-heading">Maria Kate</h4>
@@ -117,7 +117,7 @@ const Home = () => {
                         <div className="col-md-3">
                             <div className="testimonial mb-5">
                                 <div className="avatar mx-auto">
-                                    <img src={AimImg4} className="rounded-circle z-depth-1 img-fluid" />
+                                    <img src={AimImg4} className="rounded-circle z-depth-1 img-fluid" alt='img' />
                                 </div>
                                 <div className='testinonial-box'>
                                     <h4 className="sectiontitle testimonial-heading">Maria Kate</h4>
