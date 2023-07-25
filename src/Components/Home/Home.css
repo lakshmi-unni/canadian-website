@@ -6,7 +6,7 @@
 
 
 
-/* ..................................... */
+/* section1 */
 
 
 .banner-content {
@@ -67,7 +67,6 @@ input {
 
 */
 
-/* ................................... */
 /* parnter section */
 .partnersection {
     margin-top: 0;
@@ -89,7 +88,6 @@ input {
     width: 123.858px;
     height: 67.34px;
     margin: 8px;
-    /* Add padding between logos */
 }
 
 
@@ -104,16 +102,12 @@ input {
 }
 
 
-/* ............................................ */
 .features-section {
     background: #FFF;
     height: 645px;
     display: flex;
-    /* Flex container */
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
     text-align: justify;
 }
 
@@ -166,7 +160,7 @@ input {
 }
 
 
-/* ........................................... */
+/*message section */
 .messages-section {
     background-color: #ECF4FA;
     height: 640px;
@@ -225,7 +219,6 @@ input {
     padding: 0;
     background-repeat: no-repeat;
     background-position: center;
-    /* Center the background image within the container */
 }
 
 
@@ -233,5 +226,3 @@ input {
     height: 271px;
     border-radius: 12px;
 }
-
-/* ........................................ */
