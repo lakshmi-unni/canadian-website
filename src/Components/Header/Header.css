@@ -39,22 +39,16 @@ header .logo img {
     height: 62px;
     flex-shrink: 0;
     margin-left: 30px;
-<<<<<<< HEAD
-      margin-top: 4px;
-=======
     margin-top: 4px;
->>>>>>> 7958e3c (first commit)
+
 
 }
 
 .navbar ul {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     padding: 24px 56px;
-=======
-    padding: 24px 56px
->>>>>>> 7958e3c (first commit)
+
 }
 
 .navbar a {
