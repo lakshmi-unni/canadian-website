@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -12,6 +13,14 @@
     border-top: 4px solid #3498db;
     border-radius: 50%;
     animation: spin 1.2s linear infinite, pulse 1.2s ease-in-out infinite;
+}
+
+.loader-text {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+    font-family: Barlow;
+    font-size: 18px;
 }
 
 @keyframes spin {
