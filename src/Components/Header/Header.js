@@ -1,9 +1,9 @@
-import React from 'react'
-import '../Header/Header.css'
-import LogoImg from '../../Assets/logo.png'
+import React from 'react';
+import '../Header/Header.css';
+import LogoImg from '../../Assets/logo.png';
 import './Header.css'
-import Emailogo from '../../Assets/email.svg'
-import PhLogo from '../../Assets/phone.svg'
+import Emailogo from '../../Assets/email.svg';
+import PhLogo from '../../Assets/phone.svg';
 
 
 const Header = () => {
