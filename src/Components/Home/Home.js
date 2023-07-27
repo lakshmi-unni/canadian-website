@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import BannerImg from '../../Assets/Banner.jpg';
 import PartnerLogo1 from '../../Assets/img1.jpg';
@@ -13,10 +13,23 @@ import AimImg3 from '../../Assets/aim3.jpg';
 
 import AimImg4 from '../../Assets/aim4.jpg';
 import DotImg from '../../Assets/dot.svg';
-
+import Loader from '../Loader.js';
 
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate loading process for demonstration purposes
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 2000); // Set the loading time as per your requirement
+    }, []);
+
+    if (isLoading) {
+        return <Loader />;
+    }
+
     return (
         <div >
 
@@ -194,7 +207,14 @@ const Home = () => {
             {/* section 4 ends */}
 
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
+
+
+
+
+
+
+
