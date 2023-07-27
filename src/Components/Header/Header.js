@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Header/Header.css';
-import LogoImg from '../../Assets/logo.png';
+import LogoImg from '../../Assets/logo.jpg';
 import './Header.css'
 import Emailogo from '../../Assets/email.svg';
 import PhLogo from '../../Assets/phone.svg';

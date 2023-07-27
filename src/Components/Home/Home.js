@@ -1,17 +1,17 @@
 import React from 'react';
 import './Home.css';
-import BannerImg from '../../Assets/Banner.png';
-import PartnerLogo1 from '../../Assets/img1.png';
-import PartnerLogo2 from '../../Assets/img2.png';
-import PartnerLogo3 from '../../Assets/img3.png';
-import PartnerLogo4 from '../../Assets/img4.png';
-import PartnerLogo5 from '../../Assets/img5.png';
-import AimImg1 from '../../Assets/aim1.png';
-import AimImg2 from '../../Assets/aim2.png';
+import BannerImg from '../../Assets/Banner.jpg';
+import PartnerLogo1 from '../../Assets/img1.jpg';
+import PartnerLogo2 from '../../Assets/img2.jpg';
+import PartnerLogo3 from '../../Assets/img3.jpg';
+import PartnerLogo4 from '../../Assets/img4.jpg';
+import PartnerLogo5 from '../../Assets/img5.jpg';
+import AimImg1 from '../../Assets/aim1.jpg';
+import AimImg2 from '../../Assets/aim2.jpg';
 
-import AimImg3 from '../../Assets/aim3.png';
+import AimImg3 from '../../Assets/aim3.jpg';
 
-import AimImg4 from '../../Assets/aim4.png';
+import AimImg4 from '../../Assets/aim4.jpg';
 import DotImg from '../../Assets/dot.svg';
 
 
